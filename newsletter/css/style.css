@@ -1,0 +1,123 @@
+body {
+  background-color: rgb(150, 145, 145);
+  margin: 0 auto;
+
+  font-family:arial; 
+  font-size:15px;
+
+}
+table {
+  max-width: 600px;
+  margin: 0 auto;
+}
+table,
+tr,
+td {
+  border:0px;
+  border-spacing: 0;
+  border-collapse: 0;
+}
+
+.header {
+  height: 60px;
+  background-color: #09385e;
+}
+.info-cupon {
+  background: #0a0b13 url(../img/security23-1.jpg) no-repeat top left;
+  padding: 20px;
+}
+.info-envio {
+  background: #09385e;
+  padding: 20px;
+}
+h1 {
+  margin: 0;
+  padding: 0 0 10px 0;
+  color: rgb(253, 255, 248);
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 35px;
+}
+.info {
+  padding: 0 0 10px 0;
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.info-cupon h1,
+.info-cupon p,
+.info-cupon a {
+  width: 50%;
+}
+
+.info-envio h1,
+.info-envio p,
+.info-envio a {
+  width: 50%;
+}
+
+.info-promo {
+  background-color: #ffffff;
+  font-family: Helvetica, arial, sans-serif, "Market Sans";
+  color: rgb(0, 0, 0);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 20px;
+}
+
+.header td {
+  padding: 0 20px;
+}
+.top-menu {
+  color: #dd0a0a;
+  font-family: Helvetica, arial, sans-serif, "Market Sans";
+  text-decoration: none;
+  font-size: 10px;
+  line-height: 13px;
+  font-weight: normal;
+}
+
+.menu {
+  padding-left: 6px;
+  font-size: 13px;
+  line-height: 26px;
+  color: rgb(158, 158, 168);
+  font-family: Helvetica, arial, sans-serif, "Market Sans";
+  font-weight: normal;
+}
+.menu span {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.top-menu,
+.menu {
+  text-align: right;
+}
+
+.btn-aceptar, .btn-prueba {
+  font-size: 15px;
+  font-weight: normal;
+
+
+  color: #ffffff;
+  border: 1px solid #f4f4fd;
+  padding: 10px;
+  color: #fafaf9;
+  text-decoration: none;
+}
+
+.condiciones{
+  background-color: #ffffff;
+  font-family: Helvetica, arial, sans-serif, "Market Sans";
+  font-size: 13px;
+  text-align: justify;
+  padding: 20px;
+}
+
+ul li{
+  margin-bottom: 15px;
+  
+}
